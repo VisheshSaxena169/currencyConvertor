@@ -1,0 +1,84 @@
+/* General page styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #3b82f6, #1e3a8a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+}
+
+/* Container box */
+.container {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  width: 350px;
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Converter inner box */
+.converter-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input groups */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.input-group input,
+.input-group select {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #111;
+}
+
+/* Button styling */
+button {
+  padding: 12px;
+  background: #3b82f6;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+/* Result box */
+.result {
+  margin-top: 10px;
+  padding: 12px;
+  background: #0f172a;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
